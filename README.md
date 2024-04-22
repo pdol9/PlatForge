@@ -14,20 +14,20 @@ Debian / Ubuntu. In case of additional missing dependencies, those can
 be easily included into Dockerfile and modifying the setup.sh script
 accordingly.
 
-* This tool was developed for use with terminal (bash shell)
+* This tool was developed primarily for use with terminal (bash shell)
 
 ## Installation
 
-- first copy a project into ```/srcs/``` directory
+- First copy a desired project into ```/srcs/``` directory
 
-- to build a docker image run
+- To build a docker image run
 ```bash
 make
 ```
 
 ## Usage
 
-- run docker container with
+- Run docker container with
 ```bash
 make run
 ```
