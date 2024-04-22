@@ -14,7 +14,7 @@ Debian / Ubuntu. In case of additional missing dependencies, those can
 be easily included into Dockerfile and modifying the setup.sh script
 accordingly.
 
-* This tool was developed primarily for use with terminal (bash shell)
+* This tool was developed primarily for use with terminal (bash shell).
 
 ## Installation
 
@@ -41,3 +41,5 @@ make debug
 ```bash
 make clean
 ```
+
+- To exit a running container press ```Ctrl - D```.
