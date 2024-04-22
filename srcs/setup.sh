@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# colour codes
+# color codes
 CLEAR="\033[0m"
 PR="\033[1;35m"
 

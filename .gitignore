@@ -1,1 +1,3 @@
 srcs/*
+!srcs/setup.sh
+!srcs/Dockerfile
