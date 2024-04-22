@@ -2,17 +2,13 @@
 
 all:
 	docker build -f srcs/Dockerfile -t project .
-	docker run -it project
 
 run:
-	docker run project
-
-rm:
-	docker stop project
-	docker rm project
+	docker run -it project /bin/bash
 
 debug:
-	docker run -it project bash
+	docker ps -a
+	@echo "To inspect logs run following: docker logs Container_ID"
 
 clean:
 	docker stop $$(docker ps -qa) ||:
