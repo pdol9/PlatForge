@@ -32,14 +32,24 @@ make
 make run
 ```
 
-- to debug a docker container
+- To debug a docker container
 ```bash
 make debug
 ```
 
-- to stop and remove all docker images / containers
+- To stop and remove all docker images / containers
 ```bash
 make clean
 ```
 
-- To exit a running container press ```Ctrl - D```.
+- To exit a running container press ```Ctrl - D``` or run ```exit```.
+
+## Examples
+
+Building a docker image
+<br>
+<img src="./images/example-1.png" alt="Docker image" width="300" height="500">
+
+Running a C project as a Docker container with interactive prompt
+<br>
+<img src="./images/example-2.png" alt="C project" width="300" height="500">
