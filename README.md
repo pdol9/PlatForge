@@ -20,7 +20,7 @@ accordingly.
 
 - First copy a desired project into ```/srcs/``` directory
 
-- To build a docker image run
+- Then build a docker image
 ```bash
 make
 ```
@@ -48,8 +48,8 @@ make clean
 
 Building a docker image
 <br>
-<img src="./images/example-1.png" alt="Docker image" width="300" height="500">
+<img src="./images/example-1.png" alt="Docker image" width="700" height="280">
 
 Running a C project as a Docker container with interactive prompt
 <br>
-<img src="./images/example-2.png" alt="C project" width="300" height="500">
+<img src="./images/example-2.png" alt="C project" width="700" height="280">
